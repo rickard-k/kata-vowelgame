@@ -1,0 +1,29 @@
+{
+  "name": "kata-vowelgame",
+  "version": "1.0.0",
+  "description": "A vowel game kata",
+  "main": "index.js",
+  "scripts": {
+    "lint": "npx eslint ./**/*.js",
+    "test": "npx jest --config jest.config.json",
+    "watch": "npx jest --config jest.config.json --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rickard-k/kata-vowelgame.git"
+  },
+  "keywords": [],
+  "author": "Rickard Karlsson",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^21.24.0",
+    "jest": "^23.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/rickard-k/kata-vowelgame/issues"
+  },
+  "homepage": "https://github.com/rickard-k/kata-vowelgame#readme"
+}
